@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="./css/style_task1.css">
+<title>SENG 401 - Assignment 1</title>
+</head>
+<body>
+	<h1 id="i7zuhs">SENG 401 - Software Architecture</h1>
+	<p id="iilsib">Help me. Please.</p>
+	<div data-tabs="1" id="i8pt56">
+		<nav data-tab-container="1" class="tab-container" id="ir6noi">
+			<a href="#tab1" data-tab="1" class="tab">Stock Photos</a><a
+				href="#tab2" data-tab="1" class="tab">Contact Page</a>
+			<div></div>
+			<a href="#tab3" data-tab="1" class="tab">About Us</a>
+		</nav>
+		<div id="tab1" data-tab-content="1" class="tab-content">
+			<div>Stock Photo Display</div>
+			<div class="row" id="ifx60h">
+				<div class="cell">
+					<img id="irw1dd" src="./img/image1.jpg" />
+				</div>
+				<div class="cell" id="i6v443">
+					<img id="iry3xn" src="./img/image2.jpg" />
+				</div>
+				<div class="cell">
+					<img id="iwzzyb" src="./img/image3.jpg" />
+				</div>
+			</div>
+			<div class="row" id="ivax6k">
+				<div class="cell">
+					<img src="./img/image4.jpg" id="i5m1wr" />
+				</div>
+				<div class="cell">
+					<img src="./img/image5.jpg" id="ivq8ag" />
+				</div>
+				<div class="cell">
+					<img src="./img/image6.jpg" id="iuu5yg" />
+				</div>
+			</div>
+		</div>
+		<div id="tab2" data-tab-content="1" class="tab-content">
+			<div>Contact the Devs</div>
+			<form class="form">
+				<div class="form-group">
+					<label class="label">Title</label><input
+						placeholder="Type here your email Title" class="input" />
+				</div>
+				<div class="form-group">
+					<label class="label">Phone</label><input type="number"
+						placeholder="Type here your phone number" class="input" />
+				</div>
+				<div class="form-group">
+					<label class="label">Email Address</label><input type="email"
+						placeholder="Type here your email" class="input" />
+				</div>
+				<div class="form-group">
+					<label class="label">Date</label><input type="text"
+						placeholder="Type here your email" class="input" />
+				</div>
+				<div class="form-group">
+					<label class="label">Website</label><input type="text"
+						placeholder="Type here your website" class="input" />
+				</div>
+				<div class="form-group">
+					<label class="label">Message</label>
+					<textarea placeholder="Write your message here" class="textarea"></textarea>
+				</div>
+				<div class="form-group">
+					<button type="submit" class="button">Send</button>
+				</div>
+			</form>
+		</div>
+		<div id="tab3" data-tab-content="1" class="tab-content">
+			<div id="ixes98">The Best Group</div>
+			<div id="i654ln">The Coolest Team</div>
+			<div class="row" id="ittbfo">
+				<div class="cell" id="iutk57">
+					<img src="./img/rebecca.jpeg" id="i2dwmg" />
+					<div id="ii84hk">
+						Rebecca Reid
+						<div>Enjoys playing and modding video games. Ameteur birdwatcher/wildlife nuisance. Favorite snake is the Plains Garter Snake.</div>
+						<div>ID: 30028221</div>
+					</div>
+				</div>
+				<div class="cell" id="i3gqow">
+					<img src="./img/nathan.jpeg" id="ixjg02" />
+					<div id="itw8rg">
+						Nathan Godard
+						<div>Avid reader and technology enthusiast. Can be found sitting on his couch with coffee, popcorn, and way too many blankets either watching a movie, reading a book, or doing homework (depending on the time of year)</div>
+						<div>ID: 30017394</div>
+					</div>
+				</div>
+				<div class="cell" id="iy08sk">
+					<img src="./img/ashley.jpeg" id="iuz21k" />
+					<div id="idan8z">
+						Ashley Brown
+						<div>Does pottery, reading, and crochet.</div>
+						<div>ID: 30021192</div>
+					</div>
+				</div>
+			</div>
+			<div class="row" id="ir1ah2">
+				<div class="cell">
+					<img src="./img/profileBogdan.jpg" id="i7ou62" />
+					<div id="il5e3h">
+						Bogdan Lykhosherstov:
+						<div>Addicted to unhealthy ammounts of canooing, he lives his dream to become one with the lakes and the rivers he explores.</div>
+						<div>ID: 101612345</div>
+					</div>
+				</div>
+				<div class="cell" id="i9mtol">
+					<img id="ime6rc" src="./img/unilogo.png" />
+				</div>
+				<div class="cell">
+					<img src="./img/ines.jpeg" id="i9wlph" />
+					<div id="iommio">
+						Ines Rosito:
+						<div>Just another stereotypical student who enjoys spending time playing games, hanging out with friends, and drawing, all while running on minimal hours of sleep. </div>
+						<div>ID: 30020509</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="i0burh">The Map</div>
+	<div id="container">
+		<img id="id5p28" src="./img/WorldMap.png" /> 
+		<a href="http://www.calgary.ca/" class="dot"></a>
+	</div>
+	<script>
+		var items = document.querySelectorAll('#i8pt56');
+		for (var i = 0, len = items.length; i < len; i++) {
+			(function() {
+				var t, e = this, a = "[data-tab]", n = document.body, r = n.matchesSelector
+						|| n.webkitMatchesSelector
+						|| n.mozMatchesSelector
+						|| n.msMatchesSelector, o = function() {
+					var a = e.querySelectorAll("[data-tab-content]") || [];
+					for (t = 0; t < a.length; t++)
+						a[t].style.display = "none"
+				}, i = function(n) {
+					var r = e.querySelectorAll(a) || [];
+					for (t = 0; t < r.length; t++) {
+						var i = r[t], s = i.className.replace("tab-active", "")
+								.trim();
+						i.className = s
+					}
+					o(), n.className += " tab-active";
+					var l = n.getAttribute("href"), c = e.querySelector(l);
+					c && (c.style.display = "")
+				}, s = e.querySelector(".tab-active" + a);
+				s = s || e.querySelector(a), s && i(s), e.addEventListener(
+						"click", function(t) {
+							var e = t.target;
+							r.call(e, a) && i(e)
+						})
+			}.bind(items[i]))();
+		}
+	</script>
+</body>
+</html>

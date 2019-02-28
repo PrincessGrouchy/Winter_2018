@@ -1,0 +1,16 @@
+Mon Jan 28 11:45:51 MST 2019
+First National Bank of Podunk
+ATM #42 Gordon College
+CARD 2 TRANS #2
+INQUIRY FROM: CHKG
+
+TOTAL BAL: $100.00
+AVAILABLE: $100.00
+Mon Jan 28 11:46:20 MST 2019
+First National Bank of Podunk
+ATM #42 Gordon College
+CARD 2 TRANS #4
+DEPOSIT TO: CHKG
+AMOUNT: $1.00
+TOTAL BAL: $91.00
+AVAILABLE: $100.00

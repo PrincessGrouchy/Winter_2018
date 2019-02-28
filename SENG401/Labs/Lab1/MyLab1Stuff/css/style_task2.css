@@ -1,0 +1,263 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+.form {
+	border-radius: 3px;
+	padding: 10px 15px;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+.input {
+	width: 100%;
+	margin-bottom: 15px;
+	padding: 7px 10px;
+	border-radius: 2px;
+	color: #fff;
+	background-color: #554c57;
+	border: none;
+}
+
+.textarea {
+	width: 100%;
+	margin-bottom: 15px;
+	padding: 7px 10px;
+	border-radius: 2px;
+	color: #fff;
+	background-color: #554c57;
+	border: none;
+}
+
+.label {
+	width: 100%;
+	display: block;
+}
+
+.button {
+	width: 100%;
+	margin: 15px 0;
+	background-color: #785580;
+	border: none;
+	color: #fff;
+	border-radius: 2px;
+	padding: 7px 10px;
+	font-size: 1em;
+	cursor: pointer;
+}
+
+body {
+	background-image:
+		url(https://brandinginasia.com/wp-content/uploads/2017/03/Japanese-Nurse-Stock-Photos-Branding-in-Asia-3.jpg);
+	background-repeat: repeat;
+	background-position: left top;
+	background-attachment: scroll;
+	background-size: auto;
+}
+
+.hova {
+    background-color: pink;
+}
+
+.row {
+	display: flex;
+	justify-content: flex-start;
+	align-items: stretch;
+	flex-wrap: nowrap;
+	padding: 10px;
+}
+
+.cell {
+	min-height: 75px;
+	flex-grow: 1;
+	flex-basis: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+#irw1dd {
+	color: black;
+	float: left;
+	width: 100%;
+}
+
+#iry3xn {
+	color: black;
+	float: none;
+	width: 100%;
+}
+
+#iwzzyb {
+	color: black;
+	width: 100%;
+	float: none;
+}
+
+#iuu5yg {
+	color: black;
+	float: left;
+	width: 100%;
+}
+
+#i5m1wr {
+	color: black;
+	float: none;
+	width: 100%;
+}
+
+#ivq8ag {
+	color: black;
+	width: 100%;
+	float: none;
+}
+
+#i2dwmg {
+	color: black;
+	float: none;
+	width: 100%;
+}
+
+#ixjg02 {
+	color: black;
+	width: 100%;
+	float: none;
+}
+
+#i654ln {
+	padding: 10px;
+}
+
+#ii84hk {
+	padding: 10px;
+}
+
+#idan8z {
+	padding: 10px;
+}
+
+#iuz21k {
+	color: black;
+	width: 100%;
+	float: none;
+}
+
+#itw8rg {
+	padding: 10px;
+}
+
+#i7ou62 {
+	color: black;
+	float: none;
+	width: 100%;
+}
+
+#il5e3h {
+	padding: 10px;
+}
+
+#i9wlph {
+	color: black;
+	width: 100%;
+	float: none;
+}
+
+#iommio {
+	padding: 10px;
+}
+
+#i0burh {
+	padding: 10px;
+}
+
+#ime6rc {
+	color: black;
+	width: 100%;
+}
+
+#container {
+    width: 720px;
+    height: 360px;
+    background-color: #8000ff;
+    position: relative;
+}
+#id5p28 {
+	/* map */
+	color: black;
+	width: 720px;
+	height: 360px;
+	position: relative;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+.dot {
+	height: 15px;
+	width: 15px;
+	background-color: #ff0000;
+	border-radius: 50%;
+	display: inline-block;
+	margin-right:584px;
+	margin-top:67px;
+	position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 2;
+}
+.dotEd {
+	height: 15px;
+	width: 15px;
+	background-color: #ffff00;
+	border-radius: 50%;
+	display: inline-block;
+	margin-right:584px;
+	margin-top:58px;
+	position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 2;
+}
+.tab {
+	text-decoration: none;
+	color: inherit;
+	padding: 7px 14px;
+	transition: opacity 0.3s;
+	display: inline-block;
+	border-radius: 3px;
+	margin-right: 10px;
+}
+
+.tab.tab-active {
+	background-color: #0d94e6;
+	color: white;
+}
+
+.tab-content {
+	padding: 6px 12px;
+	min-height: 100px;
+	animation: fadeEffect 1s;
+}
+
+@
+keyframes fadeEffect {
+	from {opacity: 0;
+}
+
+to {
+	opacity: 1;
+}
+
+}
+@media ( max-width : 768px) {
+	.row {
+		flex-wrap: wrap;
+	}
+}

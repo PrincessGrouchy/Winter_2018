@@ -1,0 +1,20 @@
+1.jpg
+10.jpg
+2.jpg
+3.jpg
+4.jpg
+5.jpg
+6.jpg
+7.jpg
+8.jpg
+9.jpg
+a.exe
+hello.c
+images.jpg
+maximum_data_type.cpp
+myFirstBash.sh
+out
+out.txt
+Tutorial 2
+Tutorial 4 Pics
+week02_day02.pdf
